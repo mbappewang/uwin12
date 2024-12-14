@@ -1,0 +1,192 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/imges/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/imges/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/imges/favicon-16x16.png">
+  <link rel="manifest" href="/static/imges/site.webmanifest">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>Document</title>
+</head>
+
+<body data-bs-theme="dark">
+  <!-- Head -->
+  <div class="head">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#"><img alt="Logo" src="/static/imges/logo-oddspedia-light.svg"></a>
+        <!-- Menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Link -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">ODDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">TIPS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">BOOKMAKERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">PROMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">TOOLS</a>
+            </li>
+          </ul>
+          <!-- Button -->
+          <form class="d-flex align-items-center my-2 my-lg-0">
+            <button class="btn btn-sm btn-outline-primary me-2" type="button" disabled>Sign In</button>
+            <button class="btn btn-sm btn-success" type="button" disabled>Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- sub-head -->
+  <div class="sub-head">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <ul class="nav nav-pills overflow-auto py-3">
+          <li class="nav-item me-4">
+            <a class="bg-Primary  nav-link active position-relative rounded-pill" aria-current="page" href="#">
+              <span class="badge">
+                <i class="bi bi-bullseye fs-5">Soccer</i>
+              </span>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-Primary-subtle">99+
+              </span>
+            </a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link bg-secondary position-relative rounded-pill" href="#">
+              <span class="badge">
+                <i class="bi bi-bullseye fs-5">Soccer</i>
+              </span>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-light-subtle">99+
+              </span>
+            </a>
+          </li>
+          <li class="nav-item position-relative me-4">
+            <a class="nav-link" href="#">
+            </a>
+          </li>
+          <li class="nav-item position-relative me-4">
+            <a class="nav-link" href="#">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Content -->
+  <div class="container content">
+    <!-- 侧边列表 -->
+    <div class="side-list col-xl-2 d-none d-xl-block">
+      <ul class="list-group list-group-flush">
+        <!-- Popular 分组 -->
+        <li class="list-group-item border-0 popular">
+          <strong>
+            <h5>Popular</h5>
+          </strong>
+          <ul class="list-group list-group-flush mt-2">
+            <!-- 运动项 -->
+            <li class="list-group-item border-0">
+              Football
+              <ul class="list-group list-group-flush mt-2">
+                <!-- 联赛项 -->
+                <li class="list-group-item border-0">
+                  <img src="https://cdn.oddspedia.com/images/leagues/small/627.png" class="me-2" style="width: 20px;">
+                  Premier League
+                </li>
+                <li class="list-group-item border-0">
+                  <img src="https://cdn.oddspedia.com/images/leagues/small/2@2x.png" class="me-2" style="width: 20px;">
+                  La Liga
+                </li>
+              </ul>
+            </li>
+            <li class="list-group-item border-0">
+              Basketball
+            </li>
+          </ul>
+        </li>
+        <!-- 普通分组 -->
+        <li class="list-group-item border-0 normal">
+          Normal
+          <ul class="list-group list-group-flush mt-2">
+            <!-- 运动项 -->
+            <li class="list-group-item border-0">
+              Football
+              <ul class="list-group list-group-flush mt-2">
+                <!-- 联赛项 -->
+                <li class="list-group-item border-0">
+                  <img src="https://cdn.oddspedia.com/images/leagues/small/627.png" class="me-2" style="width: 20px;">
+                  Premier League
+                </li>
+                <li class="list-group-item border-0">
+                  <img src="https://cdn.oddspedia.com/images/leagues/small/2@2x.png" class="me-2" style="width: 20px;">
+                  La Liga
+                </li>
+              </ul>
+            </li>
+            <li class="list-group-item border-0">
+              Basketball
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 比赛列表 -->
+    <div class="matchlist bg-danger col-xl-6 col-sm-12 mx-2 p-0">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sport p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="bi bi-browser-chrome me-2"></i><b>FOOTBALL</b></a>
+          <a class="navbar-brand ms-auto " href="#">Power by <img
+              src="https://cdn.oddspedia.com/images/bookmakers/dark-back/120x48/stake-com.png" alt="STAKE"
+              class="img-fluid me-2" style="height: 24px; object-fit: contain;">
+            <span class="rounded-circle bg-danger p-2 d-inline-flex align-items-center justify-content-center">
+              <i class="bi bi-gift text-white"></i>
+            </span>
+          </a>
+          <a class="navbar-brand" href="#">SEE ALL<i class="bi bi-arrow-right ms-2"></i></a>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-light-subtle league p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="bi bi-browser-chrome me-2 fs-6"></i><b>SPAIN</b></a>
+          <a class="navbar-brand me-auto " href="#">La Liga</a>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-secondary match p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">23:59</a>
+          <a class="navbar-brand  me-auto" href="#"><i class="bi bi-browser-chrome fs-6"></i><b>SPAIN</b></a>
+          <a class="navbar-brand" href="#">SEE ALL<i class="bi bi-arrow-right ms-2"></i></a>
+        </div>
+      </nav>
+    </div>
+    <!-- 右侧广告 -->
+    <div class="ad bg-warning col-xl-4 d-none d-xl-block">
+      3
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/script.js"></script>
+</body>
+
+</html>
